@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<!--font size-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title> Portfolio</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="header-side">
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+<ul class="navlist">
+<li><a href="#Home"> HOME </a></li>
+<li><a href="#Projects"> Projects </a></li>
+<li><a href="./resume.html"> Resume <i class="fa-solid fa-download"></i> </a></li>
+<li><a href="#About"> About</a></li>
+<li><a href="#Contact"> Contact </a></li>
+</ul>
+</div>
+
+<div class="Intro-part">
+  <h2 class="masked-text">Welcome to my portfolio website!!</h2>
+</div>
+
+<!-- Breakdown left and right -->
+<div class="Breakdown" id="Home">
+<div class="Column1" >
+<div class="left-section">
+ <div class="Introduction" id="name"><h1>Hi, I'm <span>Saurabh Kumar</span>&#128400; </h1></div>
+ <!-- <div class="cross">A Developer, Coder, Network Engineer, Open Source Contributor, AI/ML Enthusiast</div>  -->
+<div class="typing">
+<h2>I'm a &nbsp;<span class="auto-type"></span></h2>
+ </div>
+ <br>
+ 
+
+<div class="About-Me"><div></div>
+<div class="about-me-part"><p class="about-me-para">I discovered a deep passion for programming and its transformative impact on the world. Along the way, I’ve gained valuable experience and knowledge. I am proficient in core programming languages such as <b>C++</b>, <b>JavaScript</b>, <b>Python</b>, and <b>SQL</b>. I am also familiar with <span>Machine Learning and its libraries, databases, developer tools, various technologies/frameworks, as well as concepts in "Networking" and "Cybersecurity"</span>.
+<br><br><br>
+  My primary interests include building innovative web technologies and working on AI/ML projects. Currently, I am learning <q>React.js</q> and <q>Next.js</q> to further expand my skills in modern web development. </p>
+</div>
+</div>
+</div>
+<!-- Right Side -->
+<div class="right-section">
+<div class="image-part">
+<img src="./people.JPG " alt="Trulli" width="500" height="333">  
+</div>
+<div class="image-below-part">
+</div>
+</div>
+</div>
+</div>
+
+<!-- SKILLS SECION -->
+<h2 class="aurora-title">Skills
+  <div class="aurora">
+    <div class="aurora-item"></div>
+  </div>
+</h2>
+<div class="rows">
+    <div class="col"> <b>Languages</b>
+        <ul>&#8680; C++/C</ul>
+        <ul>CSS</ul>
+        <ul>Python</ul>
+        <ul>HTML</ul>
+        <ul>SQL</ul>
+        <ul>JavaScript</ul>
+        <ul></ul>
+    </div>
+
+    <div class="col"><b>Tools</b><ul>Github</ul>
+    <ul>Git</ul>
+    <ul>Jira</ul>
+<ul>Jupyter Notebook</ul>
+<ul>Heroku</ul>
+<ul>AWS</ul>
+<ul></ul>
+</div>
+
+    <div class="col"><b>Database</b>
+<ul>MySQL</ul>
+<ul>RelationDB</ul>
+<ul>PostgreSQL</ul>
+<ul>MongoDB</ul></div>
+
+<div class="col"><b>FrameWork</b>
+    <ul>Bootstrap</ul>
+    <ul>Tensorflow</ul>
+    <ul>OpenCV</ul>
+    <ul>Pandas</ul>
+<ul>Numpy</ul>
+<ul>PyTorch</ul>
+<!-- <ul>Flask/Django/Node.js</ul> -->
+</div>
+  </div>
+  <br>
+
+<!-- Projects -->                                   
+<div class="Projects-head" id="Projects"> <h2 class="aurora-title">Projects
+  <div class="aurora">
+    <div class="aurora-item"></div>
+  </div>
+</h2></div>
+<div class="Projects"> 
+<!-- <div class="Project-part" id="credit-card"><img src="./cc fraud detection.png" alt=""></div> -->
+
+<div class="Project-part" id="credit-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./cc fraud detection.png" alt="Credit Card Project" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Project-part" id="weather-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./weather.jpg" alt="Weather Card" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Project-part" id="exam-cheating">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./prevent_exam_cheating.jpg" alt="exam cheating extension" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Project-part" id="weather-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./weather.jpg" alt="exam cheating extension" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Project-part" id="weather-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./todolist.jpg" alt="exam cheating extension" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Project-part" id="weather-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./movie_recommend.jpg" alt="exam cheating extension" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Project-part" id="weather-card">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./mask.jpg" alt="exam cheating extension" />
+      </div>
+      <div class="flip-card-back">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>This project uses machine learning to detect fraudulent transactions in real time.</p>
+        <a href="https://liveproject-url.com" target="_blank" class="btn">🌐 Live Demo</a>
+        <a href="https://github.com/your-repo" target="_blank" class="btn">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Project-part"></div>
+<div class="Project-part"></div>
+
+</div> 
+<div class="button">
+  <button class="project-button glow-on-hover fas">See More &#xf101;</psna></button>
+</div>
+
+<!-- CERTIFICATE -->
+<div class="Projects-head" id="Projects"> <h2 class="aurora-title">Certificates 
+  <div class="aurora">
+    <div class="aurora-item"></div>
+  </div>
+</h2></div>
+<div class="certificate">
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      
+<img src="./Coursera1.jpg" alt="certificate1" />
+<img src="./Coursera1.jpg" alt="certificate1">
+<img src="./Coursera2.jpg" alt="certificate2"/>
+<img src="./Coursera3.jpg" alt="certificate3"/>
+<img src="./Coursera5.jpg" alt="certificate4"/>
+<img src="./Coursera6.jpg" alt="certificate5"/>
+<img src="./Coursera7.jpg" alt="certificate6"/>
+<img src="./Coursera8.jpg" alt="certificate7"/>
+<img src="./Coursera2.jpg" alt="certificate8"/> 
+</div></div>
+</div>
+<div class="carousel-dots" id="carousel-dots"></div>
+
+<div class="button">
+  <button class="project-button glow-on-hover fas">See More &#xf101;</psna></button>
+</div>
+
+
+<!-- Education  -->
+<div class="Education" id="About">
+  <div class="Projects-head" id="Projects"> <h2 class="aurora-title">Education 
+    <div class="aurora">
+      <div class="aurora-item"></div>
+    </div>
+  </h2></div>
+  <div class="myeducation">
+<div class="education-part">
+ 
+<div class="College-life">
+  <div class="logo"><img src="./college.png"></div> 
+  <div class="education-details"><p>2019-2023</p>
+<h2>Harcourt Butler Technical University</h2>
+<h3 style="text-decoration: underline;">Bachelor of Technology</h3> 
+<h4 >Information Technology -  &nbsp;<span style="color: rgb(193, 255, 47)">7.11</span>&nbsp;CGPA</h4></div>
+</div>
+</div>
+<div class="education-part">
+  <div class="College-life">
+    <div class="logo"><img src="./school.png"></div> 
+    <div class="education-details"><p>2018</p>
+  <h2>KENDRIYA VIDYALAYA NO.1</h2>
+  <h3 style="text-decoration: underline;">Science</h3> 
+  <h4>XX%</h4></div>
+  </div>
+  </div>
+  <div class="education-part">
+ 
+    <div class="College-life">
+      <div class="logo"><img src="./college.png"></div> 
+      <div class="education-details"><p>2016</p>
+    <h2>KENDRIYA VIDYALAYA NO.1</h2>
+    <h3 >8.4 CGPA</h3> </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- Interest  -->
+<!-- <div class="Interest"><h2 class="Interests-heading">Interests</h2> 
+    <div class="Interests-block"></div>
+    <div></div>
+    <div></div>
+    </div> -->
+
+<!-- Contact  -->
+<div class="Contact" id="Contact">
+  <div class="Projects-head" id="Projects"> <h2 class="aurora-title"> Contacts
+    <div class="aurora">
+      <div class="aurora-item"></div>
+    </div>
+  </h2></div>
+<div class="contact-info"> 
+<ul class="navlist-1">
+    <li><a href="https://wa.me/919305906804"><i class="fa-solid fa-mobile-screen-button"></i> +919305906804</a> 
+    <li><a href="#Projects" onclick="location.href='mailto:saurabhkumar23232@gmail.com';"><i class="fa-regular fa-envelope"></i> saurabhkumar23232@gmail.com</a> 
+    <li><a href="https://github.com/saurabh-23232"><i class="fa-brands fa-square-github"></i> Github</a> 
+    <li><a href="https://www.linkedin.com/in/saurabhkumrr/"><i class="fa-brands fa-linkedin"></i> Linkedln</a> 
+    </ul>
+</div>
+</div>
+
+
+<!-- typed.js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+ $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+  var typed = new Typed('.auto-type',{
+    strings: ["Pythonist", "Developer", "Fast Learner"],
+    loop: true,
+    typeSpeed: 80,
+    backSpeed: 40
+  });
+  function toggleMenu() {
+  const navlist = document.querySelector('.navlist');
+  navlist.classList.toggle('active');
+}
+
+const slide = document.querySelector('.carousel-slide');
+  const images = slide.querySelectorAll('img');
+  const totalSlides = images.length;
+  const dotsContainer = document.getElementById('carousel-dots');
+
+  let index = 0;
+
+  // Create Dots
+  images.forEach((_, i) => {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    dot.addEventListener('click', () => {
+      index = i;
+      updateCarousel();
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  function updateCarousel() {
+    slide.style.transform = `translateX(-${index * 100}%)`;
+    updateDots();
+  }
+
+  function updateDots() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, idx) => {
+      dot.classList.toggle('active', idx === index);
+    });
+  }
+
+  function moveSlide(n) {
+    index = (index + n + totalSlides) % totalSlides;
+    updateCarousel();
+  }
+
+  document.querySelector('.prev').addEventListener('click', () => moveSlide(-1));
+  document.querySelector('.next').addEventListener('click', () => moveSlide(1));
+
+  // Auto Slide
+  setInterval(() => {
+    moveSlide(1);
+  }, 3000);
+
+  updateCarousel();
+</script>
+
+
+</body>
+
+</html>

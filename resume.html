@@ -1,0 +1,164 @@
+<!-- <h2>My Resume</h2>
+<iframe src="./public/Resume.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<a href="resume.pdf" target="_blank" download>
+  <button>Download My Resume (PDF)</button>
+</a> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/35d384d62c.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #282828;
+      text-align: center;
+      color: white;
+    }
+    .resume-container {
+      margin: 40px auto;
+      width: 80%;
+      height: 90vh;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .download{
+      padding: 10px 36px;
+      font-size: larger;
+      border-radius: 15px;
+      background-color: #0ff6a9;
+    }
+    .download:hover{
+      background-color: #0ff6a9;
+      color: black;
+      box-shadow: 0 0 10px 1px #0ff6a9;
+      cursor: pointer;
+    }
+    .h1{
+      font-size: larger;
+      text-decoration: underline ;
+text-decoration-color: whitesmoke;
+    }
+    .navlist{
+width: auto;
+font-size: larger;
+height: 100%;
+padding: 20px;
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 6.5rem;
+border: 3px solid #0ff6a9;
+box-shadow: 0 0 10px 1px #0ff6a9;
+border-radius: 10px;
+}
+
+.navlist a{
+  color: aquamarine;
+ text-decoration: none;
+ font-size: 0.9rem;
+ font-size: 15px;
+ font-weight: 100px;
+}
+.navlist a:hover{
+  color: rgb(3, 249, 167);
+  text-decoration: underline;
+}
+    .hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: aquamarine;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: -45%;
+  z-index: 1000;
+  width: 100%;
+}
+@media (max-width: 768px) {
+    .navlist {
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      justify-content: flex-start;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #282828;
+      border-radius: 0;
+      display: none;
+    }
+
+    .navlist.active {
+      display: flex;
+    }
+
+    .hamburger {
+      display: block;
+    }
+  }
+  footer{
+    margin: 26px 4px 10px 4px;
+  }
+  </style>
+</head>
+<body>
+  <div class="header-side">
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+  <ul class="navlist">
+  <li><a href="./index.html"> HOME </a></li>
+  <li><a href="index.html#projects"> Projects </a></li>
+  <li><a href="./index.html#about"> About</a></li>
+  <li><a href="./index.html"> Contact </a></li>
+  </ul>
+  </div>
+ 
+
+
+  <header>
+    <h1>📄 My Resume</h1>
+  </header>
+
+  <section>
+    <h2></h2>
+    <div class="resume-container">
+      <iframe src="./public/saurabh_resume.pdf#toolbar=0&navpanes=0&scrollbar=0"  style="border: none; background-color: white;" 
+      width="100%" height="800px"></iframe>
+
+  
+  <i class="fa-solid fa-download"></i>
+  
+    </div>
+  </section>
+  <a href="./public/Saurabh_Resume.pdf" target="_blank" download>
+    <button class="download">Download <i class="fa-solid fa-download"></i></button>
+  </a>
+  <footer class="navlist">
+    <a href="mailto:saurabhkumar23232@gmail.com"><i class="fa-regular fa-envelope"></i>  saurabhkumar23232@gmail.com</a>
+    <a href="https://github.com/saurabh-23232"><i class="fa-brands fa-square-github"></i> Github</a>
+    <a href="https://www.linkedin.com/in/saurabhkumrr/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <a href="https://wa.me/919305906804"><i class="fa-solid fa-mobile-screen-button"></i> +919305906804</a> 
+
+    
+  </footer>
+  <script>
+  function toggleMenu() {
+    const navlist = document.querySelector('.navlist');
+    navlist.classList.toggle('active');
+  }
+  </script>
+</body>
+</html>
